@@ -1,0 +1,821 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* background: rgb(235, 235, 235); */
+    background: #6c81aa;
+}
+nav .firstdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 4rem;
+    background: rgb(224, 223, 223);
+}
+
+nav .firstdiv .linkedinlogo{
+    padding-right: 3rem;
+    display: flex;
+    gap: 0.7rem;
+}
+
+.centerlogos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .firstdiv .linkedinlogo{
+    padding-right: -55vh;
+}
+.input{
+    width: 5%;
+}
+
+nav .firstdiv .linkedinlogo .input{
+    background: rgb(237, 245, 246);
+    width: 30%;
+    height: 40px;
+    margin: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.2rem;
+    padding-right: 26vh;
+    outline: none;
+}
+
+nav .firstdiv .linkedinlogo input[type='search']{
+    width: 5rem;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+nav .firstdiv .linkedinlogo input[type='search'] ::placeholder{
+    font-size: 0.7rem;
+    color: rgb(49, 49, 49);
+    font-weight: 100;
+}
+
+nav .firstdiv .centerlogos :hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+    color: gray;
+}
+
+
+nav .firstdiv .centerlogos img{
+    width: 20px;
+    height: 20px;
+}
+
+nav .firstdiv .centerlogos img:hover{
+    width: 25px;
+    height: 25px;
+    filter: grayscale(100%);
+}
+
+.logosimages:hover{
+    -webkit-filter: grayscale(0);
+    filter: none ;
+}
+
+nav .firstdiv .centerlogos{
+    padding: 0 6px 0 6px;
+}
+
+.profileimage a{
+    text-decoration: none;
+    color: black;
+}
+
+.menuimage a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .firstdiv .centerlogos h6{
+    margin: 0 30px 0 0;
+}
+
+.MyNetworkimage{
+    margin: 0 3px 0 0;
+}
+
+
+/* *********** MIDDLE BAR SECTION ************** */
+
+.allbars{
+    display: grid;
+    grid-template-columns: 20% 60% 25%;
+    gap: 0.5rem;
+    width: 85%;
+    margin: 1.8rem auto;
+}
+
+/* aside, main, .rightbar{
+    background-color: #000;
+    
+} */
+
+aside .leftbar{
+    background: rgb(224, 223, 223);
+    height: 50vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: sticky;
+    overflow: hidden;
+}
+
+aside .leftbar2{
+    background: rgb(224, 223, 223);
+    height: 65vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: sticky;
+    overflow: hidden;
+}
+
+.leftbar .top{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(82, 92, 105);
+    position: absolute;
+}
+
+.leftbar img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 3%;
+    border-radius: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid rgb(224, 223, 223);
+}
+
+aside .leftbar .profilename{
+    position: relative;
+    text-align: center;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.leftbar .profilename a{
+    text-decoration: none;
+    color: #000;
+}
+
+.leftbar .profilename a:hover{
+    text-decoration: underline;
+}
+
+.leftbar .profilename small{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.leftbar .view{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 6%;
+}
+
+.leftbar .view .viewers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 100;
+    padding: 0.2rem 0.5rem;
+}
+
+.leftbar .view .viewers:hover{
+    background-color: rgb(54, 52, 52);
+}
+
+.leftbar .view1 .viewers1:hover{
+    background-color: rgb(54, 52, 52);
+}
+
+.leftbar .view .viewers h6{
+    color: gray;
+}
+
+.leftbar .view .viewers a{
+    color: rgb(39, 39, 219);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.leftbar .premium{
+    position: relative;
+    top: 7%;
+}
+
+.leftbar .premium h6{
+    color: gray;
+    font-weight: 100;
+    margin-left: 0.2rem;
+}
+
+
+.leftbar.premium a{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: #0000;
+}
+
+hr#prem{
+    margin: 0.5rem 0;
+}
+
+/*********************************************************************/
+
+
+div .centerbar{
+    background: rgb(224, 223, 223);
+    height: 20vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+div .centerbar2{
+    background: rgb(224, 223, 223);
+    height: 110.5vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+div .centerbar3{
+    background: rgb(224, 223, 223);
+    height: 75.5vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: relative;
+    margin-top: 2vh;
+}
+
+
+/* 
+.button{
+    margin-top: 2vh;
+    width: 1px;
+    height: 5px;
+    border-radius: 50px;
+    outline: none;
+    border-color: rgb(48, 44, 44);
+} */
+
+.bar1{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*********************************************************************/
+
+div .rightbar{
+    background: rgb(224, 223, 223);
+    height: 50vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+ .rightbar2{
+    background: rgb(224, 223, 223);
+    height: 40vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: sticky;
+    overflow: hidden;
+}
+
+.rightbar3{
+    background: rgb(224, 223, 223);
+    height: 30vh;
+    width: 95.3%;
+    border-radius: 0.8rem;
+    position: sticky;
+    overflow: hidden;
+}
+
+.rightbar3a1 :hover{
+    border-radius: 7px;
+    color: #6c81aa;
+    display: flex;
+    transition: ease-in 0.5s;
+    width: 400px;
+    height: 20px;
+}
+
+.leftbar21:hover{
+    color: blue;
+    transition: ease-in 0.5s;
+    width: 400px;
+    height: 20px;
+    display: flex;
+}
+
+.leftbar22:hover{
+    color: black;
+    transition: ease-in 0.5s;
+    width: 400px;
+    height: 20px;
+    display: flex;
+}
+
+.button1 :hover{
+    background-color: transparent;
+    color:rebeccapurple;
+    transition: ease-out 0.2s;
+}
+
+
+.sort-by{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-right: 5vh;
+}
+
+.sort-by hr{
+    flex: 1;
+    border: 0;
+    height: 1px;
+    background: #ccc;
+}
+
+.sort-by p{
+    font-size: 13px;
+    padding-left: -6vh;
+}
+
+.sort-by p span{
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sort-by p span img{
+    width: 12px;
+    margin-left: 3px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    body{
+        /* background: rgb(235, 235, 235); */
+        background: #6c81aa;
+    }
+    .firstdiv{
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 0 4rem;
+        background: rgb(224, 223, 223);
+        width: 463px;
+    }
+    
+    nav .firstdiv .linkedinlogo{
+        padding-right: 3rem;
+        display: flex;
+        margin-left: -5vh;
+    }
+
+    nav .firstdiv .input input{
+        display: none;
+    }
+
+    nav .firstdiv .input img{
+        width: 10px;
+        height: 10px;
+        padding-right: -2vh;
+    }
+
+    nav .firstdiv .input{
+        width: 100px;
+        background: transparent;  
+    }
+    
+    .centerlogos{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .centerlogos img{
+        display: none;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    nav .firstdiv .linkedinlogo{
+        padding-right: -55vh;
+    }
+    .input{
+        width: 5%;
+    }
+    
+    nav .firstdiv .linkedinlogo .input{
+        display: none;
+    }
+    
+    
+    nav .firstdiv .centerlogos :hover{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 0.1rem;
+        color: gray;
+    }
+    
+    
+    nav .firstdiv .centerlogos img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    nav .firstdiv .centerlogos img:hover{
+        width: 25px;
+        height: 25px;
+        filter: grayscale(100%);
+    }
+    
+
+    
+    nav .firstdiv .centerlogos{
+        padding: 0 6px 0 6px;
+    }
+    
+    .profileimage a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .menuimage a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav .firstdiv .centerlogos h6{
+        margin: 0 80px 0 -60px;
+    }
+
+    .metext{
+        display: none;
+    }
+
+    .premiumtext{
+        display: none;
+    }
+    
+    .MyNetworkimage{
+        margin: 0 3px 0 0;
+    }
+    
+    
+    /* *********** MIDDLE BAR SECTION ************** */
+    
+    .allbars{
+        display: inline;
+        grid-template-columns: 20% 60% 25%;
+        gap: 0.5rem;
+        width: 85%;
+        margin: 1.8rem auto;
+    }
+    
+    /* aside, main, .rightbar{
+        background-color: #000;
+        
+    } */
+    
+    aside .leftbar{
+        background: rgb(224, 223, 223);
+        height: 48vh;
+        width: 95%;
+        border-radius: 0.8rem;
+        position: sticky;
+        overflow: hidden;
+        margin-top: 2vh;
+        margin-left: 6vh;
+    }
+
+    
+    aside .leftbar2{
+        background: rgb(224, 223, 223);
+        height: 65vh;
+        width: 95.3%;
+        border-radius: 0.8rem;
+        position: sticky;
+        overflow: hidden;
+        margin-left: 6vh;
+    }
+    
+    .leftbar .top{
+        width: 100%;
+        height: 8vh;
+        background-color: rgb(82, 92, 105);
+        position: absolute;
+    }
+    
+    .leftbar img{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top: 3%;
+        border-radius: 50%;
+        width: 4.5rem;
+        height: 4.5rem;
+        border: 2px solid rgb(224, 223, 223);
+    }
+    
+    aside .leftbar .profilename{
+        position: relative;
+        text-align: center;
+        top: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .leftbar .profilename a{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .leftbar .profilename a:hover{
+        text-decoration: underline;
+    }
+    
+    .leftbar .profilename small{
+        font-size: 0.7rem;
+        color: gray;
+    }
+    
+    .leftbar .view{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 6%;
+    }
+    
+    .leftbar .view .viewers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 100;
+        padding: 0.2rem 0.5rem;
+    }
+    
+    .leftbar .view .viewers:hover{
+        background-color: rgb(54, 52, 52);
+    }
+    
+    .leftbar .view1 .viewers1:hover{
+        background-color: rgb(54, 52, 52);
+    }
+    
+    .leftbar .view .viewers h6{
+        color: gray;
+    }
+    
+    .leftbar .view .viewers a{
+        color: rgb(39, 39, 219);
+        text-decoration: none;
+        font-size: 0.8rem;
+    }
+    
+    .leftbar .premium{
+        position: relative;
+        top: 7%;
+    }
+    
+    .leftbar .premium h6{
+        color: gray;
+        font-weight: 100;
+        margin-left: 0.2rem;
+    }
+    
+    
+    .leftbar.premium a{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        text-decoration: none;
+        margin-left: 1rem;
+        font-size: 0.8rem;
+        color: #0000;
+    }
+    
+    hr#prem{
+        margin: 0.5rem 0;
+    }
+    
+    /*********************************************************************/
+    
+    
+    div .centerbar{
+        background: rgb(224, 223, 223);
+        height: 18vh;
+        width: 115.3%;
+        border-radius: 0.8rem;
+        position: relative;
+        overflow: hidden;
+        margin-top: 2vh;
+    }
+
+    .partt1{
+        display: none;
+    }
+
+    div .centerbar .imagesig{
+        margin-top: -2vh;
+    }
+
+    div .centerbar ul{
+        margin-top: 20vh;
+    }
+
+    .part1{
+        display: none;
+    }
+
+    div .centerbar img{
+        margin-top: -5vh;
+    }
+    
+    div .centerbar2{
+        background: rgb(224, 223, 223);
+        height: 30vh;
+        width: 116.2%;
+        border-radius: 0.8rem;
+        position: relative;
+    }
+
+    .para1{
+        display: none;
+    }
+
+    .para2{
+        padding-left: 20vh;
+    }
+    
+    div .centerbar3{
+        background: rgb(224, 223, 223);
+        height: 25vh;
+        width: 116.2%;
+        border-radius: 0.8rem;
+        position: relative;
+        margin-top: 2vh;
+    }
+
+    div .centerbar3 .para2{
+        display: none;
+    }
+
+    .para3{
+        margin-left: -32vh;
+    }
+    
+    
+    /* 
+    .button{
+        margin-top: 2vh;
+        width: 1px;
+        height: 5px;
+        border-radius: 50px;
+        outline: none;
+        border-color: rgb(48, 44, 44);
+    } */
+    
+    .bar1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    /*********************************************************************/
+    
+    div .rightbar{
+        background: rgb(224, 223, 223);
+        height: 50vh;
+        width: 116.3%;
+        border-radius: 0.8rem;
+        position: relative;
+        overflow: hidden;
+        margin-top: 2vh;
+        padding-left: 4vh;
+    }
+    
+     .rightbar2{
+        background: rgb(224, 223, 223);
+        height: 40vh;
+        width: 116.3%;
+        border-radius: 0.8rem;
+        position: sticky;
+        overflow: hidden;
+    }
+    
+    .rightbar3{
+        background: rgb(224, 223, 223);
+        height: 30vh;
+        width: 116.3%;
+        border-radius: 0.8rem;
+        position: sticky;
+        overflow: hidden;
+        padding-left: 5vh;
+    }
+    
+    .rightbar3a1 :hover{
+        border-radius: 7px;
+        color: #6c81aa;
+        display: flex;
+        transition: ease-in 0.5s;
+        width: 400px;
+        height: 20px;
+    }
+    
+    .leftbar21:hover{
+        color: blue;
+        transition: ease-in 0.5s;
+        width: 400px;
+        height: 20px;
+        display: flex;
+    }
+    
+    .leftbar22:hover{
+        color: black;
+        transition: ease-in 0.5s;
+        width: 400px;
+        height: 20px;
+        display: flex;
+    }
+    
+    .button1 :hover{
+        background-color: transparent;
+        color:rebeccapurple;
+        transition: ease-out 0.2s;
+    }
+    
+    
+    .sort-by{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        margin-right: 5vh;
+    }
+    
+    .sort-by hr{
+        flex: 1;
+        border: 0;
+        height: 3px;
+        background: #ccc;
+        margin-left: 8vh;
+    }
+    
+    .sort-by p{
+        font-size: 13px;
+        padding-left: -6vh;
+    }
+    
+    .sort-by p span{
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .sort-by p span img{
+        width: 12px;
+        margin-left: 3px;
+    }
+    
+}
+
+
